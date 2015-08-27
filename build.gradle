@@ -12,13 +12,6 @@ buildscript {
     }
 }
 
-
-allprojects {
-    repositories {
-        jcenter()
-    }
-}
-
 if (JavaVersion.current().isJava8Compatible()) {
     allprojects {
         tasks.withType(Javadoc) {

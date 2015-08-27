@@ -49,6 +49,10 @@ android {
     }
 }
 
+repositories {
+    jcenter()
+}
+
 dependencies {
     compile project(':squidb')
 
